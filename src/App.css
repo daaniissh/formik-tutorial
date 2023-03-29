@@ -80,10 +80,15 @@ button {
   padding: 0.35rem 0.5rem;
   background-color: #4299e1;
   color: #1a202c;
-  border: none;
+  border: none; 
   border-radius: 3px;
   width: 100%;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
+}
+
+input.input-error,
+select.input-error{
+  border-color: rgb(119, 28, 28);
 }
