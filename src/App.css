@@ -92,3 +92,6 @@ input.input-error,
 select.input-error{
   border-color: rgb(119, 28, 28);
 }
+button:disabled{
+  opacity: 0.23;
+}
